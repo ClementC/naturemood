@@ -1,0 +1,38 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+import random
+import subprocess
+
+
+sounds = [
+    ["Dawn Soundscape from Big Meadows", "https://www.nps.gov/av/imr/avElement/romo-DawnAmbientROMO6816BigMeadowsFinal1.mp3"],
+    ["Dawn Wetland Soundscape from Moraine Park", "https://www.nps.gov/av/imr/avElement/romo-MoraineWetlandAmbientROMO51816Final1.mp3"],
+    ["Dawn Soundscape from the Sun Valley Trail", "https://www.nps.gov/av/imr/avElement/romo-DawnAmbientROMO6916SunValleyTrailFinal1.mp3"],
+    ["Morning Soundscape from Finch Lake", "https://www.nps.gov/av/imr/avElement/romo-FinchLakeAmbientROMO62016Final1.mp3"],
+    ["Evening Soundscape from Moraine Park", "https://www.nps.gov/av/imr/avElement/romo-MoraineParkAmbient51916Final1.mp3"],
+    ["Stream Soundscape from the Black Canyon Trail", "https://www.nps.gov/av/imr/avElement/romo-StreamAmbientROMO52516BlackCanyonTrailFinal1.mp3"],
+    ["Forest Soundscape from Lawn Lake", "https://www.nps.gov/av/imr/avElement/romo-ForestAmbientNearLawnLakeROMO52616Final1.mp3"],
+    ["Tundra Soundscape from Medicine Bow Trailhead", "https://www.nps.gov/av/imr/avElement/romo-TundraAmbientROMO6916MedicineBowTrailFinal1.mp3"],
+    ["Wind Soundscape from Gem Lake", "https://www.nps.gov/av/imr/avElement/romo-WindAmbientGemLakeROMO52516Final1.mp3"],
+    ["Thunderstorm Soundscape from Hollowell Park", "https://www.nps.gov/av/imr/avElement/romo-ThunderstormROMO662017HollowellPark1.mp3"],
+    ["Thunderstorm Soundscape from the Black Canyon Trail", "https://www.nps.gov/av/imr/avElement/romo-ThunderstormAmbientROMO52616BlackCanyonTrail1.mp3"],
+    ["Thunderstorm Soundscape from the Sunrise Campsite", "https://www.nps.gov/av/imr/avElement/romo-ThunderstormAmbientROMO6716SunriseSite2Final.mp3"],
+    ["Thunderstorm, Rain and Hail Soundscape from the Sunrise Campsite", "https://www.nps.gov/av/imr/avElement/romo-ThunderstormAmbientROMO6716SunriseSiteFinalwav.mp3"]
+]
+
+proc = None
+
+
+if __name__ == "__main__":
+    while True:
+        try:
+            title, url = random.choice(sounds)
+            print "Now playing %s" % title
+            proc = subprocess.Popen("mpv --really-quiet %s" % url, shell=True)
+            proc.wait()
+        except KeyboardInterrupt:
+            break
+
+    proc.terminate()
+    print "Bye!"
