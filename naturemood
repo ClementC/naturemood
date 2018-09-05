@@ -6,7 +6,7 @@ import subprocess
 
 
 # URLs from here: https://www.nps.gov/romo/learn/photosmultimedia/sounds-ambient-soundscapes.htm
-sounds = [
+SOUNDS = [
     ["Dawn Soundscape from Big Meadows", "https://www.nps.gov/av/imr/avElement/romo-DawnAmbientROMO6816BigMeadowsFinal1.mp3"],
     ["Dawn Wetland Soundscape from Moraine Park", "https://www.nps.gov/av/imr/avElement/romo-MoraineWetlandAmbientROMO51816Final1.mp3"],
     ["Dawn Soundscape from the Sun Valley Trail", "https://www.nps.gov/av/imr/avElement/romo-DawnAmbientROMO6916SunValleyTrailFinal1.mp3"],
@@ -22,18 +22,21 @@ sounds = [
     ["Thunderstorm, Rain and Hail Soundscape from the Sunrise Campsite", "https://www.nps.gov/av/imr/avElement/romo-ThunderstormAmbientROMO6716SunriseSiteFinalwav.mp3"]
 ]
 
-proc = None
 
-
-if __name__ == "__main__":
+def main():
+    proc = None
     while True:
         try:
-            title, url = random.choice(sounds)
-            print "Now playing %s" % title
+            title, url = random.choice(SOUNDS)
+            print("Now playing %s" % title)
             proc = subprocess.Popen("mpv --really-quiet %s" % url, shell=True)
             proc.wait()
         except KeyboardInterrupt:
             break
 
     proc.terminate()
-    print "Bye!"
+    print("Bye!")
+
+
+if __name__ == '__main__':
+    main()
