@@ -12,6 +12,8 @@ The American National Park has been recently releasing [amazing ambient recordin
 
 Listen & relax!
 
+Blog post [here](https://clementc.github.io/blog/2018/09/05/naturemood/).
+
 # Installation
 
 Tested on Ubuntu, the only requirement is [`mpv`](https://mpv.io/installation/).
