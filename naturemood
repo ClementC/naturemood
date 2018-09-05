@@ -5,6 +5,7 @@ import random
 import subprocess
 
 
+# URLs from here: https://www.nps.gov/romo/learn/photosmultimedia/sounds-ambient-soundscapes.htm
 sounds = [
     ["Dawn Soundscape from Big Meadows", "https://www.nps.gov/av/imr/avElement/romo-DawnAmbientROMO6816BigMeadowsFinal1.mp3"],
     ["Dawn Wetland Soundscape from Moraine Park", "https://www.nps.gov/av/imr/avElement/romo-MoraineWetlandAmbientROMO51816Final1.mp3"],
