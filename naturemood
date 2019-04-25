@@ -10,6 +10,7 @@ import subprocess
 # - https://www.nps.gov/yell/learn/photosmultimedia/sounds-soundscapes.htm
 # - https://www.nps.gov/havo/learn/nature/dawn-chorus.htm
 # - https://www.youtube.com/user/VoicesintheValley/videos (linked from https://www.nps.gov/articles/soundsofspring.htm)
+# - https://www.nps.gov/yell/learn/photosmultimedia/soundlibrary.htm
 SOUNDS = [
     ["Dawn Soundscape from Big Meadows, Rocky Mountain National Park", "https://www.nps.gov/av/imr/avElement/romo-DawnAmbientROMO6816BigMeadowsFinal1.mp3"],
     ["Dawn Wetland Soundscape from Moraine Park, Rocky Mountain National Park", "https://www.nps.gov/av/imr/avElement/romo-MoraineWetlandAmbientROMO51816Final1.mp3"],
@@ -42,6 +43,19 @@ SOUNDS = [
     ["Common Loon Wailing at lake, Yellowstone National Park", "https://www.nps.gov/av/imr/avElement/yell-YELLLakeSoundscape20160914T001ms.mp3"],
     ["Shores of Peale Island at Yellowstone Lake, Yellowstone National Park", "https://www.nps.gov/av/imr/avElement/yell-YELLLakeSoundscape20160913T01ms.mp3"],
     ["Bull Elk Bugling at Yellowstone Lake, Yellowstone National Park", "https://www.nps.gov/av/imr/avElement/yell-YELLLakeElkRut20160913T004ms.mp3"],
+    ["Canada geese fly overhead on Yellowstone Lake, Yellowstone National Park", "https://www.nps.gov/av/imr/avElement/yell-YELLCAGE20160914T04ms.mp3"],
+    ["Boreal Chorus Frogs, Wilson's Snipes, and Sandhill cranes, Yellowstone National Park", "https://www.nps.gov/av/imr/avElement/yell-20150427T13BorealfrogSACRWISN.mp3"],
+    ["Boreal Chorus Frogs, Yellowstone National Park", "https://www.nps.gov/av/imr/avElement/yell-ChorusFrogs.mp3"],
+    ["Black Growler Steam Vent (Binaural), Yellowstone National Park", "https://www.nps.gov/av/imr/avElement/yell-050301NorrisGeyserBasinBlackGrowlerSteamVentBinaural0101.mp3"],
+    ["Black Growler Steam Vent, Yellowstone National Park", "https://www.nps.gov/av/imr/avElement/yell-NorrisBlackGrowler.mp3"],
+    ["Common Loon make a series of tremelo calls on Yellowstone Lake, Yellowstone National Park", "https://www.nps.gov/av/imr/avElement/yell-YELLCOLO20160913T18ms.mp3"],
+    ["A pack of Coyotes howl while a Ruby Crowned Kinglet sings, Yellowstone National Park", "https://www.nps.gov/av/imr/avElement/yell-YELLCoyotes20160505SM31.mp3"],
+    ["A coyote group howl echoes in the night near Blacktail Pond, Yellowstone National Park", "https://www.nps.gov/av/imr/avElement/yell-YELLCoyotes150315.mp3"],
+    ["Coyotes howling along the Gibbon River, Yellowstone National Park", "https://www.nps.gov/av/imr/avElement/yell-Coyotes.mp3"],
+    ["Dawn chorus near Mammoth Hot Springs, Yellowstone National Park", "https://www.nps.gov/av/imr/avElement/yell-YELLDawnChorus.mp3"],
+    ["Hurricane Vent (Binaural), Yellowstone National Park", "https://www.nps.gov/av/imr/avElement/yell-050101NorrisGeyserBasinPorcelainBasinOverlookingHurricaneVentBinaural0101.mp3"],
+    ["Wintertime song of Yellowstone Lake as the ice reacts to changing temperatures, Yellowstone National Park", "https://www.nps.gov/av/imr/avElement/yell-YellowstoneLakeSings.mp3"],
+    ["Summer thunderstorm, accompanied by the calls of an American robin, Yellowstone National Park", "https://www.nps.gov/av/imr/avElement/yell-Thunderandbirds140704.mp3"],
 ]
 
 
