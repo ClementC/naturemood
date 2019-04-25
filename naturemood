@@ -11,6 +11,7 @@ import subprocess
 # - https://www.nps.gov/havo/learn/nature/dawn-chorus.htm
 # - https://www.youtube.com/user/VoicesintheValley/videos (linked from https://www.nps.gov/articles/soundsofspring.htm)
 # - https://www.nps.gov/yell/learn/photosmultimedia/soundlibrary.htm
+# - https://sonotheque.mnhn.fr
 SOUNDS = [
     ["Dawn Soundscape from Big Meadows, Rocky Mountain National Park", "https://www.nps.gov/av/imr/avElement/romo-DawnAmbientROMO6816BigMeadowsFinal1.mp3"],
     ["Dawn Wetland Soundscape from Moraine Park, Rocky Mountain National Park", "https://www.nps.gov/av/imr/avElement/romo-MoraineWetlandAmbientROMO51816Final1.mp3"],
@@ -56,6 +57,10 @@ SOUNDS = [
     ["Hurricane Vent (Binaural), Yellowstone National Park", "https://www.nps.gov/av/imr/avElement/yell-050101NorrisGeyserBasinPorcelainBasinOverlookingHurricaneVentBinaural0101.mp3"],
     ["Wintertime song of Yellowstone Lake as the ice reacts to changing temperatures, Yellowstone National Park", "https://www.nps.gov/av/imr/avElement/yell-YellowstoneLakeSings.mp3"],
     ["Summer thunderstorm, accompanied by the calls of an American robin, Yellowstone National Park", "https://www.nps.gov/av/imr/avElement/yell-Thunderandbirds140704.mp3"],
+    ["Tropical forests sounds, Nouragues, French Guiana", "https://sonotheque.mnhn.fr/stream/15519632177518hXSHYhIwta6wfnW"],
+    ["Birds singing, Forêt du Risoux, Parc National Régional du Haut-Jura, France", "https://sonotheque.mnhn.fr/stream/1532009378676Kk0jb8vM9pefXIfd"],
+    ["Early morning in Fontainebleau Forest, France", "https://sonotheque.mnhn.fr/stream/1503656108538BYFPKg3Nk3pXq0dX"],
+    ["Bird songs enhanced by the natural echo of a clearing in Białowieża, Poland", "https://sonotheque.mnhn.fr/stream/14871521885000sAlhCpQL9Bt0EiB"],
 ]
 
 
