@@ -64,6 +64,12 @@ SOUNDS = [
 ]
 
 
+def export_to_M3U_playlist():
+    with open("./playlist.m3u", "w") as f:
+        f.write("#EXTM3U\n")
+        f.write("\n".join(["#EXTINF:-1,%s\n%s" % (name.replace(",", " @"), url) for name, url in SOUNDS]))
+
+
 def main():
     proc = None
     while True:
